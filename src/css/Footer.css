@@ -1,7 +1,7 @@
 .footerbar{
     display: flex;
     margin-top: 30vw;
-    background: linear-gradient(to left, rgba(101, 68, 173, 1), rgba(34, 23, 57, 1));
+    background: linear-gradient(270deg, #6544AD 0%, #221739 100%);
     height: max-content;
     width: 100vw;
     height: max-content;
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Pavelt';
-    src: url('E:/pavelt/pavelt-jrjpm.ttf') format('truetype');
+    src: url('../Libraries/pavelt/pavelt-jrjpm.ttf') format('truetype');
 }
 
 .footerbar .panel1{
