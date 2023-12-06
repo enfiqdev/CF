@@ -8,7 +8,7 @@ function Footer() {
     <div className='footerbar'>
         <div className="panel1">
           <div className="forumdesc">
-            <img src={culturalforum_img} alt="culturalforum" style={{"width":"37px","height":"35px"}}/>
+            <img src={culturalforum_img} alt="culturalforum"/>
             <span>
               <p id='pname'>Cultural Forum</p>
               <p id='descname'>by S.K. Somaiya Degree College</p>
@@ -33,7 +33,7 @@ function Footer() {
             <div className="socialmedia_icons">
               <i class="fa-brands fa-square-facebook fa-xl" style={{"color": "#EAEAEA"}}></i>
               <i class="fa-brands fa-youtube fa-xl" style={{"color": "#EAEAEA"}}></i>
-              <img src={instagramflogo} alt="instagram_footer" style={{"width":"1.944","height":"2.5926vh","position":"relative","bottom":"1.6vh"}}/>
+              <img src={instagramflogo} alt="instagram_footer" style={{"width":"1.95vw","height":"3.9vh","position":"relative","bottom":"1.7vh"}}/>
             </div>
             <span style={{"margin-left":"auto","position":"relative","bottom":"1vh","margin-top":"3vh"}} >Mail us</span>
             <span style={{"font-family": "Poppins, sans-serif;","font-weight":"500" , "fontSize":"1.5rem"}}>cfandawards.sksc@somaiya.edu</span>

@@ -1,5 +1,51 @@
 .Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     width: 100vw;
-    height: 8vh;
+    height: max-content;
+    padding: 2vh 0vw 1.5vh 0vw;
     background: linear-gradient(270deg, #201636 0%, rgba(77, 37, 162, 0.85) 48.96%, #201636 97.4%);
+}
+
+.Navpanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.forumdesc img{
+    position: relative;
+    bottom: 0.5vh;
+}
+
+.contactpanel{
+    font-size: 1.1rem;
+    height: fit-content;
+    color: #EAEAEA;;
+    display: flex;
+    gap: 2vw;
+    margin-top : 1vh;
+    font-weight: 500;
+}
+
+#Aurabtn{
+    font-size: 0.8rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    border-radius: 8px;
+    padding: 0vh 0.7vw;
+    height: 4vh;
+    width: max-content;
+    color: white;
+    background: linear-gradient(262deg, #A282FD 2.94%, rgba(66, 0, 255, 0.67) 96.45%);
+}
+
+.Navpanel .panel1links{
+    font-size: 1.1rem;
+    margin-top:1vh;
+    margin-left:inherit;
+    margin-right:5vw;
+    font-weight:500
 }
