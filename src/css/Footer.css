@@ -1,0 +1,6 @@
+.footerbar{
+    background: linear-gradient(to left, rgba(101, 68, 173, 1), rgba(34, 23, 57, 1));
+    height: max-content;
+    width: 100vw;
+    color: white;
+}
