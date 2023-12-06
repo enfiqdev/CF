@@ -1,0 +1,5 @@
+.Navbar{
+    width: 100vw;
+    height: 5vh;
+    background: linear-gradient(to left, rgba(101, 68, 173, 1), rgba(34, 23, 57, 1));
+}

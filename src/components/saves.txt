@@ -1,0 +1,4 @@
+<i class="fa-brands fa-square-facebook" style={{"color": "#ffffff"}}></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-instagram" style={{"color":"#ffffff;"}}></i>
+<i class="fa-regular fa-copyright" style={{"color": "#ffffff;"}}></i>

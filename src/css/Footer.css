@@ -1,6 +1,97 @@
 .footerbar{
+    display: flex;
+    margin-top: 30vw;
     background: linear-gradient(to left, rgba(101, 68, 173, 1), rgba(34, 23, 57, 1));
     height: max-content;
     width: 100vw;
+    height: max-content;
     color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0vw 7vh 0vw;
+}
+
+@font-face {
+    font-family: 'Pavelt';
+    src: url('E:/pavelt/pavelt-jrjpm.ttf') format('truetype');
+}
+
+.footerbar .panel1{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+}
+
+.forumdesc{
+    display: flex;
+    width: max-content;
+    height: max-content;
+    flex-direction: row;
+    font-size: 1rem;
+    align-items: center;
+    gap: 1vw;
+}
+
+#pname{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+#descname{
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 2.25vh;
+    margin-bottom: -0.75vh;
+}
+
+.panel1links{
+    display: flex;
+    gap: 2vw;
+    margin-left: auto;
+}
+
+.panel2{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel2 #cfdesc{
+    font-weight: 400;
+    width: 23vw;
+    color: #EAEAEA;
+}
+
+.panel2 .socialmedia_icons{
+    display: flex;
+    gap: 1.6vw;
+    margin-top: 8vh;
+    margin-left:auto
+}
+
+.subpanel2{
+    display: flex;
+    flex-direction: column;
+}
+
+.hrline{
+    margin-top: 4vh;
+    width: 80vw;
+    border: 1px solid white;
+}
+
+.panel3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    width: 80vw;
+    height: max-content;
+    font-size: 0.8rem;
+    color: #EAEAEA;
+}
+
+#enfiqid{
+    font-family: 'pavelt', sans-serif;
+    font-size: 0.8rem;
 }
